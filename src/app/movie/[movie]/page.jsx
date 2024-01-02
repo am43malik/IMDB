@@ -12,12 +12,11 @@ const fetchData = async (id) => {
 };
 
 const page = async ({ params }) => {
-  // const [review, setReview] = useState('');
+  const dispatch = useDispatch();
   const [text, setText] = useState("");
 
   const id = params.movie;
   const t = id.split("movie");
-  const dispatch = useDispatch();
   const data = await fetchData(t[1]);
 
   const onsubmit = async (e) => {
