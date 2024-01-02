@@ -1,20 +1,29 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found": [
+      "static/chunks/webpack-0fd870aa5b0f6038.js",
+      "static/chunks/fd9d1056-e2c7d479a52b4888.js",
+      "static/chunks/938-ae3b98e17d2c2d59.js",
+      "static/chunks/main-app-9ead8b413323197d.js",
+      "static/chunks/app/_not-found-77f38f0087398323.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-0fd870aa5b0f6038.js",
+      "static/chunks/fd9d1056-e2c7d479a52b4888.js",
+      "static/chunks/938-ae3b98e17d2c2d59.js",
+      "static/chunks/main-app-9ead8b413323197d.js",
+      "static/chunks/e685ae08-b259d85fdbe54f2b.js",
+      "static/chunks/105-d74cf80268d091af.js",
+      "static/css/d18d5d74cccc4d69.css",
+      "static/chunks/app/layout-d4b6d6896857b149.js"
     ],
-    "/movie/[movie]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/movie/[movie]/page.js"
+    "/page": [
+      "static/chunks/webpack-0fd870aa5b0f6038.js",
+      "static/chunks/fd9d1056-e2c7d479a52b4888.js",
+      "static/chunks/938-ae3b98e17d2c2d59.js",
+      "static/chunks/main-app-9ead8b413323197d.js",
+      "static/chunks/105-d74cf80268d091af.js",
+      "static/chunks/app/page-bb62fd5a900fe27d.js"
     ]
   }
 }

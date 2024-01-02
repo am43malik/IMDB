@@ -32,7 +32,7 @@ const Nvavbar = () => {
         </button>
 
         <button className="ml-5 bg-[#FFFFFF] text-black p-2  text-sm font-bold rounded-sm flex items-center">
-          Favorite {item.length}
+          Favorite {item?.length ? item.length : '' }
         </button>
       </div>
 

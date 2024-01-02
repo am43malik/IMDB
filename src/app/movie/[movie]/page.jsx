@@ -11,9 +11,9 @@ const fetchData = async (id) => {
   return res;
 };
 
-const page = async ({ params }) => {
-  const dispatch = useDispatch();
+const Page = async ({ params }) => {
   const [text, setText] = useState("");
+  const dispatch = useDispatch();
 
   const id = params.movie;
   const t = id.split("movie");
@@ -73,4 +73,4 @@ const page = async ({ params }) => {
   );
 };
 
-export default page;
+export default Page;
